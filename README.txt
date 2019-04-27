@@ -12,7 +12,7 @@ If you pass verbose, as parameter, program creates extra lines in oss.log, and l
 
 3. Description
 We use bitmap for storing available process blocks, and shareable resources.
-  Marking 5 resources as shared: R10 R14 R19 R4 R0
+  
 
 For synchronization we use 1 + N semaphores, where N is the number of maximum running processes.
 first semapore is for the shared region, rest are process semaphores, where each process, waits
