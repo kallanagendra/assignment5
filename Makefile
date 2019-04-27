@@ -8,7 +8,7 @@ oss: oss.c oss.h virt_clock.o bit_vector.o
 	$(CC) oss.c virt_clock.o bit_vector.o -o oss $(LDFLAGS)
 
 user: user.c oss.h bit_vector.o
-	$(CC) user.c bit_vector.o -o user
+	
 
 virt_clock.o: virt_clock.c virt_clock.h
 	$(CC)-c virt_clock.c
