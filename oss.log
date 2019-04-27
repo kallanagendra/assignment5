@@ -1,0 +1,569 @@
+Marking 4 resources as shared: R16 R19 R18 R15 
+OSS: Generating process P1 at time 1:1000
+OSS: Generating process P2 at time 2:2000
+OSS: Generating process P3 at time 3:3000
+OSS: Generating process P4 at time 4:4000
+OSS: Generating process P5 at time 5:5000
+OSS: Generating process P6 at time 6:6000
+OSS: Generating process P7 at time 7:7000
+OSS: Generating process P8 at time 8:8000
+Master has detected Process P1 requesting R13=8 at time 8:8000
+Master granting P1 request R13=8 at time 8:8000
+OSS: Generating process P9 at time 9:9000
+Master has detected Process P2 requesting R0=4 at time 9:9000
+Master granting P2 request R0=4 at time 9:9000
+OSS: Generating process P10 at time 10:10000
+Master has detected Process P2 requesting R4=1 at time 10:10000
+Master granting P2 request R4=1 at time 10:10000
+Master has detected Process P3 requesting R16=6 at time 10:10000
+Master granting P3 request R16=6 at time 10:10000
+OSS: Generating process P11 at time 11:11000
+Master running deadlock detection at time 11:11000
+Master has acknowledged Process P2 releasing R0=4 at time 11:11000
+OSS: Generating process P12 at time 12:12000
+OSS: Generating process P13 at time 13:13000
+OSS: Generating process P14 at time 14:14000
+Master has acknowledged Process P1 releasing R13=8 at time 14:14000
+Master has detected Process P6 requesting R13=8 at time 14:14000
+Master granting P6 request R13=8 at time 14:14000
+OSS: Generating process P15 at time 15:15000
+OSS: Generating process P16 at time 16:16000
+Master has detected Process P2 requesting R12=1 at time 16:16000
+Master granting P2 request R12=1 at time 16:16000
+Master has detected Process P3 requesting R12=1 at time 16:16000
+Master blocking P3 for requesting R12=1 at time 16:16000
+Master has detected Process P10 requesting R14=6 at time 16:16000
+Master granting P10 request R14=6 at time 16:16000
+OSS: Generating process P17 at time 17:17000
+Master has detected Process P4 requesting R8=9 at time 17:17000
+Master granting P4 request R8=9 at time 17:17000
+Master has detected Process P6 requesting R4=1 at time 17:17000
+Master blocking P6 for requesting R4=1 at time 17:17000
+Master has detected Process P7 requesting R5=2 at time 17:17000
+Master granting P7 request R5=2 at time 17:17000
+Master has detected Process P8 requesting R18=4 at time 17:17000
+Master granting P8 request R18=4 at time 17:17000
+Master has detected Process P9 requesting R1=1 at time 17:17000
+Master granting P9 request R1=1 at time 17:17000
+Master has detected Process P11 requesting R7=5 at time 17:17000
+Master granting P11 request R7=5 at time 17:17000
+Master has detected Process P14 requesting R16=6 at time 17:17000
+Master blocking P14 for requesting R16=6 at time 17:17000
+OSS: Generating process P18 at time 18:18000
+Master has detected Process P17 requesting R13=8 at time 18:18000
+Master blocking P17 for requesting R13=8 at time 18:18000
+Master has acknowledged Process P2 releasing R4=1 at time 18:18000
+Master has acknowledged Process P4 releasing R8=9 at time 18:18000
+Master has detected Process P16 requesting R8=9 at time 18:18000
+Master granting P16 request R8=9 at time 18:18000
+Master unblocking P6 and granting it R4=1 at time 18:18000
+Master has acknowledged Process P7 releasing R5=2 at time 18:18000
+Master has detected Process P8 requesting R11=1 at time 18:18000
+Master granting P8 request R11=1 at time 18:18000
+Master has detected Process P9 requesting R13=8 at time 18:18000
+Master blocking P9 for requesting R13=8 at time 18:18000
+Master has acknowledged Process P10 releasing R14=6 at time 18:18000
+Master has detected Process P11 requesting R9=7 at time 18:18000
+Master granting P11 request R9=7 at time 18:18000
+Master has detected Process P12 requesting R5=2 at time 18:18000
+Master granting P12 request R5=2 at time 18:18000
+Master has detected Process P15 requesting R19=7 at time 18:18000
+Master granting P15 request R19=7 at time 18:18000
+OSS: Current system resources
+    R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+P17  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P2   0   0   0   0   0   0   0   0   0   0    0   0   1   0   0   0   0   0   0   0  
+P3   0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   6   0   0   0  
+P4   0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P16  0   0   0   0   0   0   0   0   9   0    0   0   0   0   0   0   0   0   0   0  
+P6   0   0   0   0   1   0   0   0   0   0    0   0   0   8   0   0   0   0   0   0  
+P7   0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P8   0   0   0   0   0   0   0   0   0   0    0   1   0   0   0   0   0   0   4   0  
+P9   0   1   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P10  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P11  0   0   0   0   0   0   0   5   0   7    0   0   0   0   0   0   0   0   0   0  
+P12  0   0   0   0   0   2   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P14  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P15  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   7  
+P18  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+OSS: Generating process P19 at time 19:19000
+Master has detected Process P4 requesting R14=6 at time 19:19000
+Master granting P4 request R14=6 at time 19:19000
+Master has detected Process P16 requesting R18=4 at time 19:19000
+Master blocking P16 for requesting R18=4 at time 19:19000
+Master has detected Process P6 requesting R10=1 at time 19:19000
+Master granting P6 request R10=1 at time 19:19000
+Master has detected Process P8 requesting R7=5 at time 19:19000
+Master blocking P8 for requesting R7=5 at time 19:19000
+Master has detected Process P10 requesting R9=7 at time 19:19000
+Master blocking P10 for requesting R9=7 at time 19:19000
+Master has detected Process P11 requesting R18=4 at time 19:19000
+Master blocking P11 for requesting R18=4 at time 19:19000
+Master has detected Process P12 requesting R18=4 at time 19:19000
+Master blocking P12 for requesting R18=4 at time 19:19000
+Master has acknowledged Process P15 releasing R19=7 at time 19:19000
+OSS: Generating process P20 at time 20:20000
+Master has acknowledged Process P2 releasing R12=1 at time 20:20000
+Master unblocking P3 and granting it R12=1 at time 20:20000
+Master has detected Process P4 requesting R8=9 at time 20:20000
+Master blocking P4 for requesting R8=9 at time 20:20000
+Master has detected Process P6 requesting R13=8 at time 20:20000
+Master blocking P6 for requesting R13=8 at time 20:20000
+Master has detected Process P19 requesting R3=6 at time 20:20000
+Master granting P19 request R3=6 at time 20:20000
+Master has detected Process P18 requesting R2=1 at time 20:20000
+Master granting P18 request R2=1 at time 20:20000
+OSS: Generating process P21 at time 21:21000
+Master has acknowledged Process P19 releasing R3=6 at time 21:21000
+OSS: Generating process P22 at time 22:22000
+Master running deadlock detection at time 22:22000
+Master unblocking P9 and granting it R13=8 at time 22:22000
+Master unblocking P11 and granting it R18=4 at time 22:22000
+Master has detected Process P18 requesting R0=4 at time 22:22000
+Master granting P18 request R0=4 at time 22:22000
+OSS: Generating process P23 at time 23:23000
+OSS: Generating process P24 at time 24:24000
+OSS: Generating process P25 at time 25:25000
+OSS: Generating process P26 at time 26:26000
+Master has detected Process P9 requesting R19=7 at time 26:26000
+Master granting P9 request R19=7 at time 26:26000
+Master has detected Process P11 requesting R11=1 at time 26:26000
+Master granting P11 request R11=1 at time 26:26000
+OSS: Generating process P27 at time 27:27000
+Master has acknowledged Process P9 releasing R1=1 at time 27:27000
+Master has detected Process P11 requesting R1=1 at time 27:27000
+Master granting P11 request R1=1 at time 27:27000
+Master running deadlock detection at time 33:33000
+Master running deadlock detection at time 44:44000
+Master has detected Process P22 requesting R17=9 at time 46:46000
+Master granting P22 request R17=9 at time 46:46000
+Master has detected Process P3 requesting R4=1 at time 46:46000
+Master granting P3 request R4=1 at time 46:46000
+Master has detected Process P25 requesting R18=4 at time 46:46000
+Master blocking P25 for requesting R18=4 at time 46:46000
+Master has detected Process P20 requesting R8=9 at time 46:46000
+Master granting P20 request R8=9 at time 46:46000
+Master has detected Process P26 requesting R7=5 at time 46:46000
+Master blocking P26 for requesting R7=5 at time 46:46000
+Master has acknowledged Process P9 releasing R13=8 at time 46:46000
+Master has acknowledged Process P11 releasing R1=1 at time 46:46000
+Master has detected Process P19 requesting R10=1 at time 46:46000
+Master granting P19 request R10=1 at time 46:46000
+Master has detected Process P21 requesting R18=4 at time 46:46000
+Master blocking P21 for requesting R18=4 at time 46:46000
+Master has detected Process P18 requesting R2=1 at time 46:46000
+Master blocking P18 for requesting R2=1 at time 46:46000
+Master has detected Process P23 requesting R14=6 at time 46:46000
+Master granting P23 request R14=6 at time 46:46000
+OSS: Current system resources
+    R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+P22  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   9   0   0  
+P3   0   0   0   0   1   0   0   0   0   0    0   0   1   0   0   0   6   0   0   0  
+P24  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P25  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P20  0   0   0   0   0   0   0   0   9   0    0   0   0   0   0   0   0   0   0   0  
+P26  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P9   0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   7  
+P10  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P11  0   0   0   0   0   0   0   5   0   7    0   1   0   0   0   0   0   0   4   0  
+P12  0   0   0   0   0   2   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P19  0   0   0   0   0   0   0   0   0   0    1   0   0   0   0   0   0   0   0   0  
+P14  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P21  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P18  4   0   1   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P23  0   0   0   0   0   0   0   0   0   0    0   0   0   0   6   0   0   0   0   0  
+P27  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+OSS: Generating process P28 at time 47:47000
+Master has detected Process P22 requesting R15=4 at time 47:47000
+Master granting P22 request R15=4 at time 47:47000
+Master has detected Process P3 requesting R9=7 at time 47:47000
+Master blocking P3 for requesting R9=7 at time 47:47000
+Master has detected Process P24 requesting R2=1 at time 47:47000
+Master blocking P24 for requesting R2=1 at time 47:47000
+Master has acknowledged Process P20 releasing R8=9 at time 47:47000
+Master has detected Process P9 requesting R10=1 at time 47:47000
+Master blocking P9 for requesting R10=1 at time 47:47000
+Master has acknowledged Process P11 releasing R7=5 at time 47:47000
+Master has acknowledged Process P19 releasing R10=1 at time 47:47000
+Master has acknowledged Process P23 releasing R14=6 at time 47:47000
+Master has detected Process P27 requesting R0=4 at time 47:47000
+Master blocking P27 for requesting R0=4 at time 47:47000
+OSS: Generating process P29 at time 48:48000
+Master unblocking P26 and granting it R7=5 at time 48:48000
+Master unblocking P9 and granting it R10=1 at time 48:48000
+Master has acknowledged Process P11 releasing R9=7 at time 48:48000
+OSS: Generating process P30 at time 49:49000
+Master unblocking P3 and granting it R9=7 at time 49:49000
+Master has detected Process P26 requesting R8=9 at time 49:49000
+Master granting P26 request R8=9 at time 49:49000
+Master has acknowledged Process P9 releasing R10=1 at time 49:49000
+Master has acknowledged Process P11 releasing R11=1 at time 49:49000
+Master running deadlock detection at time 55:55000
+Master unblocking P27 and granting it R0=4 at time 55:55000
+Master has acknowledged Process P26 releasing R7=5 at time 56:56000
+Master has acknowledged Process P3 releasing R4=1 at time 57:57000
+Master has detected Process P26 requesting R1=1 at time 57:57000
+Master granting P26 request R1=1 at time 57:57000
+Master has detected Process P9 requesting R11=1 at time 57:57000
+Master granting P9 request R11=1 at time 57:57000
+Master has acknowledged Process P11 releasing R18=4 at time 57:57000
+Master unblocking P12 and granting it R18=4 at time 57:57000
+OSS: Generating process P31 at time 58:58000
+Master has detected Process P28 requesting R13=8 at time 58:58000
+Master granting P28 request R13=8 at time 58:58000
+Master has detected Process P22 requesting R11=1 at time 58:58000
+Master blocking P22 for requesting R11=1 at time 58:58000
+Master has acknowledged Process P3 releasing R9=7 at time 58:58000
+Master has detected Process P26 requesting R18=4 at time 58:58000
+Master blocking P26 for requesting R18=4 at time 58:58000
+Master has acknowledged Process P9 releasing R11=1 at time 58:58000
+Master unblocking P10 and granting it R9=7 at time 58:58000
+Master has detected Process P19 requesting R0=4 at time 58:58000
+Master blocking P19 for requesting R0=4 at time 58:58000
+OSS: Current system resources
+    R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+P28  0   0   0   0   0   0   0   0   0   0    0   0   0   8   0   0   0   0   0   0  
+P22  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   4   0   9   0   0  
+P3   0   0   0   0   0   0   0   0   0   0    0   0   1   0   0   0   6   0   0   0  
+P29  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P31  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P25  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P26  0   1   0   0   0   0   0   0   9   0    0   0   0   0   0   0   0   0   0   0  
+P9   0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   7  
+P10  0   0   0   0   0   0   0   0   0   7    0   0   0   0   0   0   0   0   0   0  
+P12  0   0   0   0   0   2   0   0   0   0    0   0   0   0   0   0   0   0   4   0  
+P19  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P14  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P21  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P30  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P27  4   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+OSS: Generating process P32 at time 59:59000
+Master has acknowledged Process P28 releasing R13=8 at time 59:59000
+Master unblocking P22 and granting it R11=1 at time 59:59000
+Master has acknowledged Process P3 releasing R12=1 at time 59:59000
+Master has detected Process P29 requesting R15=4 at time 59:59000
+Master blocking P29 for requesting R15=4 at time 59:59000
+Master has detected Process P31 requesting R7=5 at time 59:59000
+Master granting P31 request R7=5 at time 59:59000
+Master has acknowledged Process P9 releasing R19=7 at time 59:59000
+Master has detected Process P10 requesting R11=1 at time 59:59000
+Master blocking P10 for requesting R11=1 at time 59:59000
+Master has detected Process P12 requesting R16=6 at time 59:59000
+Master blocking P12 for requesting R16=6 at time 59:59000
+Master has detected Process P30 requesting R18=4 at time 59:59000
+Master blocking P30 for requesting R18=4 at time 59:59000
+Master has detected Process P27 requesting R14=6 at time 59:59000
+Master granting P27 request R14=6 at time 59:59000
+OSS: Generating process P33 at time 60:60000
+Master has detected Process P22 requesting R12=1 at time 60:60000
+Master granting P22 request R12=1 at time 60:60000
+Master has acknowledged Process P3 releasing R16=6 at time 60:60000
+Master has detected Process P31 requesting R13=8 at time 60:60000
+Master granting P31 request R13=8 at time 60:60000
+Master unblocking P12 and granting it R16=6 at time 60:60000
+Master has detected Process P27 requesting R8=9 at time 60:60000
+Master blocking P27 for requesting R8=9 at time 60:60000
+OSS: Generating process P34 at time 61:61000
+Master has detected Process P22 requesting R9=7 at time 61:61000
+Master blocking P22 for requesting R9=7 at time 61:61000
+Master has detected Process P31 requesting R13=8 at time 61:61000
+Master blocking P31 for requesting R13=8 at time 61:61000
+Master has detected Process P32 requesting R19=7 at time 61:61000
+Master granting P32 request R19=7 at time 61:61000
+Master has detected Process P33 requesting R12=1 at time 61:61000
+Master blocking P33 for requesting R12=1 at time 61:61000
+Master has acknowledged Process P12 releasing R5=2 at time 61:61000
+OSS: Generating process P35 at time 62:62000
+Master has acknowledged Process P32 releasing R19=7 at time 62:62000
+Master has detected Process P12 requesting R8=9 at time 62:62000
+Master blocking P12 for requesting R8=9 at time 62:62000
+OSS: Generating process P36 at time 63:63000
+Master has detected Process P32 requesting R6=1 at time 63:63000
+Master granting P32 request R6=1 at time 63:63000
+OSS: Generating process P37 at time 64:64000
+Master running deadlock detection at time 66:66000
+Master unblocking P29 and granting it R15=4 at time 66:66000
+Master unblocking P33 and granting it R12=1 at time 66:66000
+Master unblocking P10 and granting it R11=1 at time 66:66000
+Master unblocking P12 and granting it R8=9 at time 66:66000
+OSS: Generating process P38 at time 67:67000
+Master has acknowledged Process P29 releasing R15=4 at time 67:67000
+Master has detected Process P32 requesting R17=9 at time 67:67000
+Master granting P32 request R17=9 at time 67:67000
+Master has acknowledged Process P10 releasing R9=7 at time 67:67000
+Master has acknowledged Process P12 releasing R8=9 at time 67:67000
+Master unblocking P27 and granting it R8=9 at time 67:67000
+OSS: Current system resources
+    R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+P34  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P22  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P35  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P29  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P38  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P32  0   0   0   0   0   0   1   0   0   0    0   0   0   0   0   0   0   9   0   0  
+P33  0   0   0   0   0   0   0   0   0   0    0   0   1   0   0   0   0   0   0   0  
+P10  0   0   0   0   0   0   0   0   0   0    0   1   0   0   0   0   0   0   0   0  
+P36  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P12  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   6   0   4   0  
+P19  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P14  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P21  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P37  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P30  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P27  4   0   0   0   0   0   0   0   9   0    0   0   0   0   6   0   0   0   0   0  
+OSS: Generating process P39 at time 68:68000
+Master has detected Process P34 requesting R13=8 at time 68:68000
+Master granting P34 request R13=8 at time 68:68000
+Master has detected Process P35 requesting R5=2 at time 68:68000
+Master granting P35 request R5=2 at time 68:68000
+Master has detected Process P29 requesting R1=1 at time 68:68000
+Master granting P29 request R1=1 at time 68:68000
+Master has detected Process P32 requesting R0=4 at time 68:68000
+Master blocking P32 for requesting R0=4 at time 68:68000
+Master has detected Process P33 requesting R18=4 at time 68:68000
+Master blocking P33 for requesting R18=4 at time 68:68000
+Master has detected Process P10 requesting R13=8 at time 68:68000
+Master blocking P10 for requesting R13=8 at time 68:68000
+Master has detected Process P36 requesting R4=1 at time 68:68000
+Master granting P36 request R4=1 at time 68:68000
+Master has acknowledged Process P12 releasing R16=6 at time 68:68000
+Master unblocking P14 and granting it R16=6 at time 68:68000
+Master has detected Process P37 requesting R7=5 at time 68:68000
+Master granting P37 request R7=5 at time 68:68000
+Master has acknowledged Process P27 releasing R0=4 at time 68:68000
+OSS: Generating process P40 at time 69:69000
+Master has acknowledged Process P34 releasing R13=8 at time 69:69000
+Master has detected Process P35 requesting R18=4 at time 69:69000
+Master blocking P35 for requesting R18=4 at time 69:69000
+Master has detected Process P29 requesting R0=4 at time 69:69000
+Master granting P29 request R0=4 at time 69:69000
+Master has detected Process P39 requesting R9=7 at time 69:69000
+Master granting P39 request R9=7 at time 69:69000
+Master has detected Process P38 requesting R8=9 at time 69:69000
+Master blocking P38 for requesting R8=9 at time 69:69000
+Master unblocking P10 and granting it R13=8 at time 69:69000
+Master has detected Process P36 requesting R15=4 at time 69:69000
+Master granting P36 request R15=4 at time 69:69000
+Master has acknowledged Process P12 releasing R18=4 at time 69:69000
+Master has detected Process P14 requesting R16=6 at time 69:69000
+Master blocking P14 for requesting R16=6 at time 69:69000
+Master unblocking P21 and granting it R18=4 at time 69:69000
+Master has acknowledged Process P37 releasing R7=5 at time 69:69000
+Master has detected Process P27 requesting R10=1 at time 69:69000
+Master granting P27 request R10=1 at time 69:69000
+OSS: Generating process P41 at time 70:70000
+Master has acknowledged Process P29 releasing R0=4 at time 70:70000
+Master has detected Process P39 requesting R12=1 at time 70:70000
+Master blocking P39 for requesting R12=1 at time 70:70000
+Master unblocking P32 and granting it R0=4 at time 70:70000
+Master has detected Process P10 requesting R5=2 at time 70:70000
+Master blocking P10 for requesting R5=2 at time 70:70000
+Master has detected Process P36 requesting R0=4 at time 70:70000
+Master blocking P36 for requesting R0=4 at time 70:70000
+Master has detected Process P21 requesting R8=9 at time 70:70000
+Master blocking P21 for requesting R8=9 at time 70:70000
+Master has detected Process P37 requesting R2=1 at time 70:70000
+Master granting P37 request R2=1 at time 70:70000
+Master has detected Process P27 requesting R2=1 at time 70:70000
+Master blocking P27 for requesting R2=1 at time 70:70000
+OSS: Generating process P42 at time 71:71000
+OSS: Generating process P43 at time 72:72000
+Master running deadlock detection at time 77:77000
+Master running deadlock detection at time 88:88000
+Master running deadlock detection at time 99:99000
+Master has detected Process P40 requesting R13=8 at time 102:102000
+Master blocking P40 for requesting R13=8 at time 102:102000
+OSS: Generating process P44 at time 103:103000
+Master has acknowledged Process P29 releasing R1=1 at time 103:103000
+OSS: Current system resources
+    R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+P41  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P40  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P35  0   0   0   0   0   2   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P29  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P39  0   0   0   0   0   0   0   0   0   7    0   0   0   0   0   0   0   0   0   0  
+P38  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P32  4   0   0   0   0   0   1   0   0   0    0   0   0   0   0   0   0   9   0   0  
+P42  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P33  0   0   0   0   0   0   0   0   0   0    0   0   1   0   0   0   0   0   0   0  
+P10  0   0   0   0   0   0   0   0   0   0    0   1   0   8   0   0   0   0   0   0  
+P36  0   0   0   0   1   0   0   0   0   0    0   0   0   0   0   4   0   0   0   0  
+P43  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P19  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P44  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P21  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   4   0  
+P37  0   0   1   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P30  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P27  0   0   0   0   0   0   0   0   9   0    1   0   0   0   6   0   0   0   0   0  
+Master running deadlock detection at time 110:110000
+Master running deadlock detection at time 121:121000
+Master has detected Process P41 requesting R13=8 at time 124:124000
+Master blocking P41 for requesting R13=8 at time 124:124000
+OSS: Generating process P45 at time 125:125000
+Master has acknowledged Process P32 releasing R0=4 at time 125:125000
+Master has detected Process P42 requesting R16=6 at time 125:125000
+Master granting P42 request R16=6 at time 125:125000
+Master unblocking P36 and granting it R0=4 at time 125:125000
+Master has detected Process P43 requesting R13=8 at time 125:125000
+Master blocking P43 for requesting R13=8 at time 125:125000
+Master has detected Process P44 requesting R4=1 at time 125:125000
+Master blocking P44 for requesting R4=1 at time 125:125000
+Master has acknowledged Process P37 releasing R2=1 at time 125:125000
+Master unblocking P27 and granting it R2=1 at time 125:125000
+Master has acknowledged Process P32 releasing R6=1 at time 126:126000
+Master has acknowledged Process P42 releasing R16=6 at time 126:126000
+Master has detected Process P36 requesting R17=9 at time 126:126000
+Master blocking P36 for requesting R17=9 at time 126:126000
+Master has detected Process P27 requesting R1=1 at time 126:126000
+Master granting P27 request R1=1 at time 126:126000
+OSS: Generating process P46 at time 127:127000
+Master has detected Process P45 requesting R19=7 at time 127:127000
+Master granting P45 request R19=7 at time 127:127000
+Master has acknowledged Process P32 releasing R17=9 at time 127:127000
+Master has detected Process P42 requesting R3=6 at time 127:127000
+Master granting P42 request R3=6 at time 127:127000
+Master unblocking P36 and granting it R17=9 at time 127:127000
+Master has acknowledged Process P27 releasing R1=1 at time 127:127000
+OSS: Generating process P47 at time 128:128000
+Master has detected Process P45 requesting R6=1 at time 128:128000
+Master granting P45 request R6=1 at time 128:128000
+Master has detected Process P42 requesting R14=6 at time 128:128000
+Master blocking P42 for requesting R14=6 at time 128:128000
+Master has detected Process P36 requesting R19=7 at time 128:128000
+Master blocking P36 for requesting R19=7 at time 128:128000
+Master has acknowledged Process P27 releasing R2=1 at time 128:128000
+Master has acknowledged Process P27 releasing R8=9 at time 129:129000
+Master has detected Process P45 requesting R0=4 at time 130:130000
+Master blocking P45 for requesting R0=4 at time 130:130000
+Master unblocking P38 and granting it R8=9 at time 130:130000
+Master has detected Process P47 requesting R7=5 at time 130:130000
+Master granting P47 request R7=5 at time 130:130000
+Master has detected Process P46 requesting R16=6 at time 130:130000
+Master granting P46 request R16=6 at time 130:130000
+Master has acknowledged Process P27 releasing R10=1 at time 130:130000
+Master has detected Process P38 requesting R5=2 at time 131:131000
+Master blocking P38 for requesting R5=2 at time 131:131000
+Master has acknowledged Process P47 releasing R7=5 at time 131:131000
+Master has detected Process P46 requesting R6=1 at time 131:131000
+Master blocking P46 for requesting R6=1 at time 131:131000
+Master has acknowledged Process P27 releasing R14=6 at time 131:131000
+OSS: Current system resources
+    R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+P41  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P40  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P35  0   0   0   0   0   2   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P45  0   0   0   0   0   0   1   0   0   0    0   0   0   0   0   0   0   0   0   7  
+P39  0   0   0   0   0   0   0   0   0   7    0   0   0   0   0   0   0   0   0   0  
+P38  0   0   0   0   0   0   0   0   9   0    0   0   0   0   0   0   0   0   0   0  
+P47  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P42  0   0   0   6   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P33  0   0   0   0   0   0   0   0   0   0    0   0   1   0   0   0   0   0   0   0  
+P10  0   0   0   0   0   0   0   0   0   0    0   1   0   8   0   0   0   0   0   0  
+P36  4   0   0   0   1   0   0   0   0   0    0   0   0   0   0   4   0   9   0   0  
+P43  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P19  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P44  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P21  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   4   0  
+P46  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   6   0   0   0  
+P30  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P27  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+Master running deadlock detection at time 132:132000
+Master unblocking P38 and granting it R5=2 at time 132:132000
+Master unblocking P42 and granting it R14=6 at time 132:132000
+Master unblocking P36 and granting it R19=7 at time 132:132000
+Master unblocking P46 and granting it R6=1 at time 132:132000
+OSS: Generating process P48 at time 133:133000
+Master has detected Process P38 requesting R19=7 at time 133:133000
+Master blocking P38 for requesting R19=7 at time 133:133000
+Master has detected Process P42 requesting R4=1 at time 133:133000
+Master blocking P42 for requesting R4=1 at time 133:133000
+Master has acknowledged Process P36 releasing R0=4 at time 133:133000
+Master unblocking P19 and granting it R0=4 at time 133:133000
+Master has detected Process P46 requesting R0=4 at time 133:133000
+Master blocking P46 for requesting R0=4 at time 133:133000
+OSS: Generating process P49 at time 134:134000
+Master has acknowledged Process P36 releasing R4=1 at time 134:134000
+Master has detected Process P19 requesting R5=2 at time 134:134000
+Master blocking P19 for requesting R5=2 at time 134:134000
+Master unblocking P44 and granting it R4=1 at time 134:134000
+OSS: Generating process P50 at time 135:135000
+Master has acknowledged Process P36 releasing R15=4 at time 135:135000
+Master running deadlock detection at time 143:143000
+Master running deadlock detection at time 154:154000
+Master running deadlock detection at time 165:165000
+Master running deadlock detection at time 176:176000
+Master running deadlock detection at time 187:187000
+Master running deadlock detection at time 198:198000
+Master running deadlock detection at time 209:209000
+Master running deadlock detection at time 220:220000
+Master running deadlock detection at time 231:231000
+Master has detected Process P49 requesting R13=8 at time 232:232000
+Master blocking P49 for requesting R13=8 at time 232:232000
+Master has detected Process P48 requesting R13=8 at time 233:233000
+Master blocking P48 for requesting R13=8 at time 233:233000
+Master has detected Process P50 requesting R17=9 at time 233:233000
+Master blocking P50 for requesting R17=9 at time 233:233000
+Master has acknowledged Process P36 releasing R17=9 at time 233:233000
+Master has detected Process P44 requesting R4=1 at time 233:233000
+Master blocking P44 for requesting R4=1 at time 233:233000
+Master unblocking P50 and granting it R17=9 at time 234:234000
+Master has detected Process P50 requesting R12=1 at time 235:235000
+Master blocking P50 for requesting R12=1 at time 235:235000
+Master has acknowledged Process P36 releasing R19=7 at time 235:235000
+Master unblocking P38 and granting it R19=7 at time 236:236000
+Master has detected Process P38 requesting R3=6 at time 237:237000
+Master blocking P38 for requesting R3=6 at time 237:237000
+Master running deadlock detection at time 242:242000
+Master unblocking P10 and granting it R5=2 at time 242:242000
+Master unblocking P21 and granting it R8=9 at time 242:242000
+Master has acknowledged Process P10 releasing R5=2 at time 243:243000
+Master unblocking P19 and granting it R5=2 at time 243:243000
+Master has detected Process P21 requesting R7=5 at time 243:243000
+Master granting P21 request R7=5 at time 243:243000
+Master has acknowledged Process P19 releasing R0=4 at time 245:245000
+Master unblocking P46 and granting it R0=4 at time 245:245000
+Master has acknowledged Process P10 releasing R11=1 at time 246:246000
+Master has acknowledged Process P19 releasing R5=2 at time 246:246000
+Master has detected Process P21 requesting R17=9 at time 246:246000
+Master granting P21 request R17=9 at time 246:246000
+Master has detected Process P46 requesting R19=7 at time 246:246000
+Master granting P46 request R19=7 at time 246:246000
+OSS: Current system resources
+    R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+P33  0   0   0   0   0   0   0   0   0   0    0   0   1   0   0   0   0   0   0   0  
+P10  0   0   0   0   0   0   0   0   0   0    0   0   0   8   0   0   0   0   0   0  
+P43  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+P21  0   0   0   0   0   0   0   5   9   0    0   0   0   0   0   0   0   9   4   0  
+P46  4   0   0   0   0   0   1   0   0   0    0   0   0   0   0   0   6   0   0   7  
+P30  0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0  
+Master has acknowledged Process P10 releasing R13=8 at time 247:247000
+Master unblocking P43 and granting it R13=8 at time 247:247000
+Master has detected Process P21 requesting R14=6 at time 247:247000
+Master granting P21 request R14=6 at time 247:247000
+Master has acknowledged Process P46 releasing R0=4 at time 247:247000
+Master has acknowledged Process P43 releasing R13=8 at time 249:249000
+Master has detected Process P21 requesting R8=9 at time 250:250000
+Master blocking P21 for requesting R8=9 at time 250:250000
+Master has detected Process P46 requesting R6=1 at time 250:250000
+Master blocking P46 for requesting R6=1 at time 250:250000
+Master running deadlock detection at time 253:253000
+Master unblocking P30 and granting it R18=4 at time 253:253000
+Master has detected Process P30 requesting R12=1 at time 259:259000
+Master granting P30 request R12=1 at time 259:259000
+Master has acknowledged Process P30 releasing R12=1 at time 260:260000
+Master has acknowledged Process P30 releasing R18=4 at time 263:263000
+Master running deadlock detection at time 264:264000
+### Simulation Stats ###
+Total time: 264:264000
+Processes:
+	Started: 50
+	Terminated: 50
+Resources:
+	Requests: 129
+	Granted: 103
+	Blocked: 65
+	Denied: 26
+	Released: 65
+Deadlocks:
+	Checks: 50
+	Killed: 26
